@@ -1,0 +1,11 @@
+.flavours {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+

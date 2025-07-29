@@ -1,0 +1,74 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #fff;
+  color: #1f2937;
+  line-height: 2;
+  font-size: 18px;
+}
+
+/* Navbar */
+nav {
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+    margin: 0 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background-color: #0D3D36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.nav-ul:hover {
+  color: #0e2227
+}
+
+.nav-ul {
+  list-style: none;
+  margin: 0;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 16px;
+  cursor: pointer;
+}
+
+.nav-button {
+  margin: 0 60px;
+  background-color: #035c4d;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* Hero Section*/ 
+
+/* Ingredients Section */
+
+
+/* Flavours */
+/* .flavours  */
+
+
+/* Benefits */
+
+

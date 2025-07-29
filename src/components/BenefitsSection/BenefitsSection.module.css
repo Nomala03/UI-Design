@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f4e8cf, #ffffff, #f4e8cf); 
+    gap: 32px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    white-space: nowrap;
+    max-width: 250px;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.icon {
+    background-color: #f9d867;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+}
+
+.imageBox {
+    flex: 1;
+    background: #fff;
+    max-width: 400px;
+}
+
+.imageBox img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 1rem;
+    box-shadow: 0 0px 80px rgba(0, 0, 0, 0.08);
+}

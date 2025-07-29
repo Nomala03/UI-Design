@@ -1,0 +1,38 @@
+.subscribeContainer {
+  background-color: #fddde6; 
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #2c2c2c;
+}
+
+.description {
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #134e4a; 
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0f3e3a;
+}

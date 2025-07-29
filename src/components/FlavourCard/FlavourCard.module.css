@@ -1,0 +1,46 @@
+.flavour-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  padding: 16px 24px;
+  text-align: center;
+  background-color: transparent;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.flavour-card:hover {
+  transform: translateY(-5px);
+}
+
+.flavour-cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.flavour-cardh3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 24px;
+  white-space: nowrap;
+  color: #333;
+}
+
+.flavour-cardp {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-top: 8px;
+  color: white;
+  background-color: var(--bg);
+}
